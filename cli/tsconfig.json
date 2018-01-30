@@ -1,0 +1,9 @@
+{
+  "extends": "../tsproject.json",
+  "compilerOptions": {
+    "outFile": "../bin/cli.js",
+    "references": [{
+      "path": "../core"
+    }]
+  }
+}
